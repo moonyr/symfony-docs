@@ -416,10 +416,11 @@ The Console component adds some predefined options to all commands:
 * ``--help``: displays the command help
 * ``--ansi|--no-ansi``: whether to force of disable coloring the output
 
-When using the ``FrameworkBundle``, two more options are predefined:
+When using the ``FrameworkBundle``, three more options are predefined:
 
 * ``--env``: sets the Kernel configuration environment (defaults to ``APP_ENV``)
 * ``--no-debug``: disables Kernel debug (defaults to ``APP_DEBUG``)
+* ``--profile``: Enables profiling (requires debug)
 
 So your custom commands can use them too out-of-the-box.
 
